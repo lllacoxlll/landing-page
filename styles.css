@@ -1,6 +1,7 @@
 * {
   margin: 0;
   font-family: 'Roboto Mono', monospace;
+  word-spacing: -2px;
 }
 
 header {
@@ -46,6 +47,7 @@ header {
 #hero-bold {
   font-size: 48px;
   font-weight: 900;
+  word-spacing: -12px;
 }
 
 #sign-up-btn {
