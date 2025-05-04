@@ -4,7 +4,6 @@
 }
 
 header {
-  border: 4px solid red;
   min-height: 5vh;
   display: flex;
   justify-content: space-between;
@@ -15,14 +14,53 @@ header {
 
 #logo-text {
   font-size: 24px;
+  font-weight: 900;
 }
 
 #logo-text,
-#header-links {
+#header-links,
+#one {
   color: #f9faf8;
 }
 
 #header-links {
   display: flex;
   gap: 24px;
+}
+
+#one {
+  background-color: #1f2937;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 50px;
+}
+
+#hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#hero-bold {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+#sign-up-btn {
+  color: white;
+  background-color: #3882f6;
+  padding: 6px 20px;
+  border-radius: 4px;
+  font-weight: 900;
+  align-self: baseline;
+}
+
+#img-placeholder {
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  padding: 0 100px;
 }
