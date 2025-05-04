@@ -141,3 +141,10 @@ header {
   border-radius: 8px;
   font-weight: 900;
 }
+
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 20px;
+}
