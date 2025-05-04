@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+header {
+  border: 4px solid red;
+  min-height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+  background-color: #1f2937;
+}
+
+#logo-text {
+  font-size: 24px;
+}
+
+#logo-text,
+#header-links {
+  color: #f9faf8;
+}
+
+#header-links {
+  display: flex;
+  gap: 24px;
+}
