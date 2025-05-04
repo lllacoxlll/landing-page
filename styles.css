@@ -5,7 +5,6 @@
 }
 
 header {
-  min-height: 5vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,7 +33,6 @@ header {
   padding: 50px 100px;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   gap: 50px;
 }
 
@@ -65,4 +63,37 @@ header {
   align-items: center;
   white-space: nowrap;
   padding: 0 100px;
+}
+
+#two {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#info-header {
+  font-size: 38px;
+  font-weight: 900;
+  word-spacing: -12px;
+  padding: 10px 0;
+}
+
+#identical-group {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.identical-div {
+  display: flex;
+  flex-direction: column;
+  flex: 0;
+}
+
+.empty-div {
+  border: 2px solid blue;
+  border-radius: 10px;
+  width: 125px;
+  height: 125px;
 }
