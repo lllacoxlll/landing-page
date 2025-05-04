@@ -73,7 +73,7 @@ header {
 }
 
 #info-header {
-  font-size: 38px;
+  font-size: 36px;
   font-weight: 900;
   word-spacing: -12px;
   padding: 40px 0;
@@ -116,4 +116,28 @@ header {
 #thor {
   font-weight: bold;
   align-self: flex-end;
+}
+
+#blue-div {
+  width: 70%;
+  margin: 100px auto;
+  padding: 50px;
+  background-color: #3882f6;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#action-heading {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+#bottom-btn {
+  border: 2px solid white;
+  padding: 6px 18px;
+  border-radius: 8px;
+  font-weight: 900;
 }
